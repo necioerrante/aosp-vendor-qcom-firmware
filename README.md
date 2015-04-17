@@ -4,7 +4,7 @@
 * leo      -
 * aries    - 23.0.A.2.93
 * scorpion -
-* sirius   - 23.0.1.A.0.167
+* sirius   - 23.1.A.0.690 (D6503)
 * castor   -
 
 ### Rhine
