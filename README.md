@@ -2,7 +2,7 @@
 
 ### Shinano
 * leo      - 23.1.A.0.690 (D6603)
-* aries    - 23.0.A.2.93
+* aries    - 23.1.A.0.690 (D5803)
 * scorpion -
 * sirius   - 23.1.A.0.690 (D6503)
 * castor   -
