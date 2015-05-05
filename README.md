@@ -13,7 +13,7 @@
 * togari   - 14.4.A.0.108
 
 ### Yukon
-* tianchi  - 19.1.A.0.473
+* tianchi  - 19.3.A.0.470 (D5303)
 * seagull  -
 * eagle    -
 * flamingo - 18.4.C.2.12
