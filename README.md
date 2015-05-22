@@ -6,8 +6,9 @@
 * 23.1.A.1.28 (D6603)
 
 ### Shinano
-* sirius   - 23.1.A.0.690 (D6503)
-* castor   -
+* msm8974ab
+* sirius, castor
+* 23.1.A.1.28 (D6503)
 
 ### Rhine
 * honami   - 14.4.A.0.157
