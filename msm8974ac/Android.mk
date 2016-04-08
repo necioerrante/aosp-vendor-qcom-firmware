@@ -16,6 +16,28 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(filter-out aries leo scorpion,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
+LOCAL_MODULE := mba_b00
+LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_SRC_FILES := etc/firmware/mba.b00
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := mba
+LOCAL_MODULE_SUFFIX := .b00
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mba_mdt
+LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_SRC_FILES := etc/firmware/mba.mdt
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := mba
+LOCAL_MODULE_SUFFIX := .mdt
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b00
 LOCAL_MODULE_OWNER := SuperBenevolent
 LOCAL_SRC_FILES := etc/firmware/modem.b00
